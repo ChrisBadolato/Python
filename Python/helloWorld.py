@@ -9,7 +9,7 @@ glutInit()                                             # initialize glut
 glutInitDisplayMode(GLUT_RGBA | GLUT_DOUBLE | GLUT_ALPHA | GLUT_DEPTH)
 glutInitWindowSize(width, height)                      # set window size
 glutInitWindowPosition(0, 0)                           # set window position
-window = glutCreateWindow("titittes.com")              # create window with title
+window = glutCreateWindow("helloWorld")              # create window with title
 glutDisplayFunc(draw)                                  # set draw function callback
 glutIdleFunc(draw)                                     # draw all the time
 glutMainLoop()   
